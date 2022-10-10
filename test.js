@@ -36,7 +36,15 @@ listaPersonas.forEach(per => {
 
 })
 
+let persona5 = {
 
+    "nombre" : "pepito",
+    "edad" : 35,
+    "caracteristicas" : "quiero guardar en la rama"
+
+}
+
+console.log(persona5)
 
 
 
