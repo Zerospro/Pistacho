@@ -1,0 +1,42 @@
+var nombre = "alejito el mejor"
+console.log (nombre) 
+
+var lista = ["pelita", "morita", "susanita"]
+console.log(lista)
+
+lista.forEach(i => {
+
+    console.log(i)
+
+})
+
+var persona = {
+
+    "nombre" : "alejito",
+    "apellido" : "lombana",
+    "edad" : 20,
+
+}
+
+var persona2 = {
+
+    "nombre" : "andres",
+    "apellido" : "pepita",
+    "edad" : 35,
+
+}
+
+listaPersonas = []
+listaPersonas.push(persona)
+listaPersonas.push(persona2)
+
+listaPersonas.forEach(per => {
+
+    console.log(per.nombre + " " + per.apellido + " Edad: " + per.edad);
+
+})
+
+
+
+
+
