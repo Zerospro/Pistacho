@@ -46,5 +46,11 @@ let persona5 = {
 
 console.log(persona5)
 
+listaPersonas.push(persona5)
 
+listaPersonas.forEach(a => {
+
+    console.log("Nombre: " + a.nombre + " " + a.caracteristicas)
+
+} )
 
